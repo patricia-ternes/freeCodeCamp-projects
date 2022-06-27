@@ -1,5 +1,5 @@
 # Solution by Patricia Ternes <patricia.terdal@gmail.com>
-# https://github.com/patricia-ternes/tree/main/freeCodeCamp-projects/Arithmetic-Formatter/ScientificComputingPython/arithmetic_arranger.py
+# https://github.com/patricia-ternes/freeCodeCamp-projects/blob/main/ScientificComputingPython/arithmetic_arranger.py
 def arithmetic_arranger(problems, solution=False):
     N = len(problems)
 
