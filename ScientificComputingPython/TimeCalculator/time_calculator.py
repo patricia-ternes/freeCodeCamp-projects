@@ -1,3 +1,7 @@
+# Solution by Patricia Ternes <patricia.terdal@gmail.com>
+# https://github.com/patricia-ternes/freeCodeCamp-projects/blob/main/ScientificComputingPython/TimeCalculator/time_calculator.py
+
+
 def add_time(start, duration, day=False):
     days = 0
 
@@ -47,8 +51,7 @@ def add_time(start, duration, day=False):
             "Sunday",
         ]
         N = weekday.index(day.capitalize())
-        M = days % 7
-        day = weekday[N + M - 7]
+        day = weekday[(N + days) % 7]
         new_time = ", ".join([new_time, day])
 
     ## If the result will be the next day, it should show (next day) after the time.
