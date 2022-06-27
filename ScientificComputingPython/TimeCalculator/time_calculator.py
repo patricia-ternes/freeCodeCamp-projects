@@ -10,8 +10,8 @@ def add_time(start, duration, day=False):
     duration = duration.split(":")
 
     # Convert to 24h system
-    if start[2] == "PM":
-        start[0] = int(start[0]) + 12
+    convert24 = {"AM": 0, "PM": 12}
+    start[0] = int(start[0]) + convert24[start[2]]
 
     # Add the duration time to the start time
     hours = int(start[0]) + int(duration[0])
@@ -26,13 +26,10 @@ def add_time(start, duration, day=False):
     hours %= 24
 
     # Convert to AM/PM system
-    meridiem = "AM"
+    meridiem = "AM" * (hours < 12) + "PM" * (hours >= 12)
     if hours == 0:
         hours = 12
-    elif hours == 12:
-        meridiem = "PM"
     elif hours > 12:
-        meridiem = "PM"
         hours -= 12
 
     # Print Formatting
@@ -50,8 +47,7 @@ def add_time(start, duration, day=False):
             "Saturday",
             "Sunday",
         ]
-        N = weekday.index(day.capitalize())
-        day = weekday[(N + days) % 7]
+        day = weekday[(weekday.index(day.capitalize()) + days) % 7]
         new_time = ", ".join([new_time, day])
 
     ## If the result will be the next day, it should show (next day) after the time.
@@ -59,6 +55,6 @@ def add_time(start, duration, day=False):
         new_time = " ".join([new_time, "(next day)"])
     ## If the result will be more than one day later, it should show (n days later) after the time
     elif days > 1:
-        new_time = " ".join([new_time, "(%d days later)" % days])
+        new_time = " ".join([new_time, f"({days} days later)"])
 
     return new_time
