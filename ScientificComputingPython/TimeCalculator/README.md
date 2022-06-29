@@ -44,3 +44,8 @@ Write your code in `time_calculator.py`. For development, you can use `main.py` 
 
 The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 <!-- The tests will run automatically whenever you hit the "run" button. -->
+
+## Requirements
+
+- `Python 3.8.2`
+- `unittest`
