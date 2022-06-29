@@ -6,7 +6,7 @@ In this folder you will find my solutions for 5 projects that make up the **Scie
 
 > In the Scientific Computing with Python Certification, you'll learn Python fundamentals like variables, loops, conditionals, and functions. Then you'll quickly ramp up to complex data structures, networking, relational databases, and data visualization.
 >
-> \- [freeCodeCamp](https://www.freecodecamp.org/learn/scientific-computing-with-python)
+> -- <cite>[freeCodeCamp](https://www.freecodecamp.org/learn/scientific-computing-with-python)</cite>
 
 ## Projects
 
