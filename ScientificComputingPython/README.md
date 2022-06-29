@@ -1,6 +1,6 @@
 # Scientific Computing with Python
 
-In this folder you will find my solutions for 5 projects that make up the **Scientific Computing with Python Certification** at **freeCodeCamp**.
+In this folder you will find my solutions for 5 projects that make up the [Scientific Computing with Python Certification](https://www.freecodecamp.org/learn/scientific-computing-with-python) at [freeCodeCamp](https://www.freecodecamp.org/).
 
 ## Certification description
 
