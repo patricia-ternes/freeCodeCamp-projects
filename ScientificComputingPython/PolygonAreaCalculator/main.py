@@ -1,3 +1,6 @@
+# Code by freeCodeCamp
+# https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/polygon-area-calculator
+
 # This entrypoint file to be used in development. Start by reading README.md
 import shape_calculator
 from unittest import main

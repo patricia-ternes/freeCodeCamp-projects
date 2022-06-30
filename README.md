@@ -7,7 +7,7 @@ In this repository you will find **my Projects Solution** that make up the main 
 - [ ] Scientific Computing with Python
   - [x] Arithmetic Formatter
   - [x] Budget App
-  - [ ] Polygon Area Calculator
+  - [x] Polygon Area Calculator
   - [ ] Probability Calculator
   - [x] Time Calculator
 
