@@ -1,5 +1,9 @@
 # Time Calculator
 
+This is the boilerplate for the Time Calculator project. Instructions for building your project can be found at <https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator>
+
+## Description
+
 Write a function named add_time that takes in two required parameters and one optional parameter:
 
 - a start time in the 12-hour clock format (ending in AM or PM)
